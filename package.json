@@ -1,0 +1,24 @@
+{
+  "name": "bebensiganteng",
+  "version": "1.0.0",
+  "description": "Experiments",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "watch": "nodemon --exec babel-node -- server.js",
+    "postinstall": "bower install && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebensiganteng/bebensiganteng.github.io.git"
+  },
+  "keywords": [
+    "experiments"
+  ],
+  "author": "bebensiganteng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bebensiganteng/bebensiganteng.github.io/issues"
+  },
+  "homepage": "https://github.com/bebensiganteng/bebensiganteng.github.io#readme"
+}
