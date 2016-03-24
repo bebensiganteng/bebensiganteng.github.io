@@ -1,0 +1,46 @@
+{
+  "name": "bebensiganteng",
+  "version": "1.0.0",
+  "description": "Experiments",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "watch": "nodemon --exec babel-node -- server.js",
+    "postinstall": "bower install && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebensiganteng/bebensiganteng.github.io.git"
+  },
+  "keywords": [
+    "experiments"
+  ],
+  "author": "bebensiganteng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bebensiganteng/bebensiganteng.github.io/issues"
+  },
+  "homepage": "https://github.com/bebensiganteng/bebensiganteng.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "babelify": "^6.3.0",
+    "bower": "^1.7.7",
+    "browser-sync": "^2.9.12",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "cssnano": "^3.3.2",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^6.0.1",
+    "gulp-streamify": "1.0.2",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.6",
+    "run-sequence": "^1.1.4",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0",
+    "webpack": "^1.12.14",
+    "webpack-stream": "^3.1.0"
+  }
+}

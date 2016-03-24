@@ -1,0 +1,24 @@
+{
+  "name": "bebensiganteng",
+  "description": "Experiments",
+  "main": "server.js",
+  "authors": [
+    "bebensiganteng"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "experiments"
+  ],
+  "homepage": "https://github.com/bebensiganteng/bebensiganteng.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "dat.gui": "*"
+  }
+}
