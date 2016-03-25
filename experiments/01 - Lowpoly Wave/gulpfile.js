@@ -7,9 +7,9 @@ gulp.task('webpack', ()=> {
 
   const webpack = require('webpack');
 
-  gulp.src('')
+  gulp.src('./src/**/*.js')
     .pipe( webpack( require('./webpack.config.js')))
-    .pipe( gulp.dest('dist/'));
+    .pipe( gulp.dest('./dist/'));
 
 })
 
