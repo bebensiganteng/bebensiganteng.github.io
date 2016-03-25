@@ -1,28 +1,32 @@
 const precss = require('precss');
-const path = require('path')
-const autoprefixer = require('autoprefixer')
+const autoprefixer = require('autoprefixer');
+const browserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
 
   context: __dirname + '/src',
   entry: './js/main.js',
   output: {
-    path: __dirname + '/src',
+    path: __dirname + '/public',
     filename: '/js/bundle.js'
   },
   module: {
     preLoaders: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
         loader: 'source-map'
       }
     ],
     loaders: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
-        loader: 'babel?presets[]=es2015'
+        loader: 'babel',
+        query: {
+          plugins: ['transform-runtime'],
+          presets: ['es2015', 'stage-0']
+        }
       },
       {
         test: /\.css$/,
@@ -32,6 +36,19 @@ module.exports = {
         loader: "style-loader!css-loader!postcss-loader!"
       }
     ]
+  },
+  plugins: [
+    new browserSyncPlugin({
+      host: 'localhost',
+      port: 3000,
+      server: {baseDir: ['./public']},
+      open: 'local'
+    })
+  ],
+  eslint: {
+    fix: true,
+    formatter: require('eslint-friendly-formatter'),
+    failOnError: true
   },
   postcss: function() {
     return [precss, autoprefixer]
