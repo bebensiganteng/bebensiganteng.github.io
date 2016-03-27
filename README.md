@@ -7,4 +7,4 @@ It'll be updated regularly.
 Mac OSX 10.11.3
 
 ### Installation
-Go inside each folder and check out the Readme.md
+Go inside each experiments/[blah] and check out the Readme.md
