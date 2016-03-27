@@ -7,7 +7,7 @@ It'll be updated regularly.
 Mac OSX 10.11.3
 
 ### Installation
-Go inside each folder and  the Readme.md
+Go inside each folder and check out the Readme.md
 
 **Example**
 ```sh
