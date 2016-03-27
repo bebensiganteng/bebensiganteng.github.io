@@ -1,0 +1,20 @@
+{
+  "name": "bebensiganteng.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebensiganteng/bebensiganteng.github.io.git"
+  },
+  "author": "bebensiganteng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bebensiganteng/bebensiganteng.github.io/issues"
+  },
+  "homepage": "https://github.com/bebensiganteng/bebensiganteng.github.io#readme",
+  "devDependencies": {}
+}
