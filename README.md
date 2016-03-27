@@ -7,4 +7,13 @@ It'll be updated regularly.
 Mac OSX 10.11.3
 
 ### Installation
-Go inside each experiments/[blah] and check out the Readme.md
+Go inside each folder and  the Readme.md
+
+**Example**
+```sh
+experiments/[blah]
+```
+
+**Live**
+[http://bebensiganteng.github.io/]: <http://bebensiganteng.github.io/>
+ 
